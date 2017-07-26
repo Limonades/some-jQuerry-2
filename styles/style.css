@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background-color: #FAFAFA;
+    width: 142px;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #BDBDBD;
+    border-bottom: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 3px 3px 0px 0px;
+    height: 30px;
+}
+
+p {
+    text-align: justify;
+    color: #585858;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+    padding: 5px 49px 6px 49px;
+    color: #6E6E6E;
+}
+
+a:active {
+	color: black;
+	opacity: 0.5;
+}
+
+li:hover {
+	background-color: #F2F2F2;
+}
+
+.first {
+	width: 500px;
+	height: 300px;
+	border: 1px solid #BDBDBD;
+	margin: 0 auto;
+	margin-top: 5px;
+	border-radius: 3px;
+	
+}
+
+.tab__content {
+	height: 199px;
+	padding: 20px 20px 20px 20px;
+	display: none;
+	border-top: 1px solid #BDBDBD;
+	overflow: auto;
+}
+
+.active {
+	background-color: #0080FF;
+	border: 1px solid #0080FF;
+	border-bottom: none;
+}
+
+.active a {
+	color: white;
+}
+
+.active:hover {
+	background-color: #0080FF;
+	cursor: text;
+}
+
+
+
+
+/*ФОРМЫ*/
+
+
+
+
+.second {
+	width: 600px;
+	height: 300px;
+	border: 1px solid #BDBDBD;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+
+.form__text {
+	display: inline-block;
+}
+
+.form__name {
+	margin-top: 46px;
+	margin-left: 20px;
+	position: relative;
+}
+
+.pole {
+    background-color: #F2F2F2;
+    color: #585858;
+    border: 1px solid #BDBDBD;
+    height: 35px;
+    width: 200px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.pole_2 {
+	margin-left: 24px;
+}
+
+.pole_3 {
+	margin-left: 44px;
+}
+
+.help {
+	display: none;
+    border: 1px solid #0080FF;
+    background-color: #0080FF;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: -10px;
+    left: 375px;
+    padding: 20px 30px 20px 30px;
+}
+
+.help_2 {
+    padding: 20px 10px 20px 10px;
+}
+
+.help__button_block {
+	text-align: center;
+    margin-top: 27px
+}
+
+.help__button {
+	cursor: help;
+	padding: 5px 89px;
+    background-color: #0080FF;
+    color: white;
+    border: 0;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 12px;
+}
